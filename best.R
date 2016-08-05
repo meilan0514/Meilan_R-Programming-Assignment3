@@ -3,7 +3,7 @@
 
 best <- function(state, outcome) {
   ## Read outcome data
-  data <- read.csv("/Users/meilanchen/Desktop/2015Fall/2_R_Programming/Homework/Assignment3/Assignment3_data/outcome.csv")
+  data <- read.csv("")
   
   ## Check that state and outcome are valid
   states <- levels(data[, 7])[data[, 7]]
